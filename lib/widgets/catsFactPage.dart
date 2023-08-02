@@ -68,6 +68,7 @@ class _CatsFactPageState extends State<CatsFactPage> {
         appBar: AppBar(
           actions: [
             IconButton(
+              color: Colors.white,
               icon: const Icon(Icons.info),
               onPressed: () {
                 _showMyDialog();
